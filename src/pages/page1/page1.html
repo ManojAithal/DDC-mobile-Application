@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page One</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <!--Test code for globalization@ Anuj-->
+  <h2>{{ 'HOME.TITLE1' | translate }}</h2> 
+  <h2> {{ 'HOME.SELECT1' | translate }}</h2>
+  <ion-item>
+    <ion-label>Gender</ion-label>
+    <ion-select [(ngModel)]="Gender">
+      <ion-option value="f" selected="true">{{'HOME.F' | translate}}</ion-option>
+      <ion-option value="m">{{'HOME.M' | translate}}</ion-option>
+    </ion-select>
+  </ion-item>
+  <button ion-button secondary (click)="test()">device lang</button>
+  <!--Test code end-->
+ 
+</ion-content>
