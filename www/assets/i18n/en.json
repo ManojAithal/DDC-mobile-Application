@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "TITLE1": "Welcome",
+    "SELECT1": "Please choose your Gender",
+    "G": "Gender",
+    "F":  "Female",
+    "M": "Male",
+    "T2": "Hello",
+    "S2": "Which color do you like?",
+    "red":"RED ",
+    "green": "GREEN"
+  }
+}
